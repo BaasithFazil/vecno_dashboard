@@ -1,0 +1,13 @@
+{
+    "Baasith": {
+        "name": "Mohamed Baasith",
+        "email": "baasith@amplify.lk",
+        "password": "qwerty123"
+    },
+
+    "Inuka": {
+        "name" : "Inuka Ekanayake",
+        "email": "inuka@amplify.lk",
+        "password": "qwerty123"
+    }
+}
