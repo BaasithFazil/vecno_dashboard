@@ -1,0 +1,7 @@
+{
+    "loginpage": {
+        "email" : "#email",
+        "password" : "#password",
+        "loginButton" : ".login-button"
+    }   
+}

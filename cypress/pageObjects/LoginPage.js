@@ -1,3 +1,6 @@
+import selectors from '../fixtures/selectors.json';
+
+
 class LoginPage {
     visit() {
         cy.visit('/account');
@@ -9,7 +12,6 @@ class LoginPage {
         } else {
             cy.get("#email").clear();
         }
-        
     }
 
     enterPassword(password) {
@@ -19,7 +21,6 @@ class LoginPage {
         } else {
             cy.get("#email").clear();
         }
-        
     }
 
     clickSubmit() {

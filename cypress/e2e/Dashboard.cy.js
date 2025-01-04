@@ -1,3 +1,4 @@
+import { it } from "mocha";
 import LoginPage from "../pageObjects/loginPage";
 
 describe('Dashboard Tests', function () {
@@ -17,6 +18,23 @@ describe('Dashboard Tests', function () {
             .and('contain', this.user.Baasith.name)
             .and('contain', `(${this.user.Baasith.email})`); // Corrected template literal
     });
+
+
+    it('Homepage visit', () => {
+        cy.get('path#vecno')
+            .should('exist')
+            .and('be.visible')
+            .click({multiple: true, force: true});
+ 
+    });
+
+
+    it('')
+
+
+
+
+  
 });
 
 
